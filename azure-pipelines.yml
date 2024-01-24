@@ -11,7 +11,7 @@ stages:
   - job: Build
 
     pool:
-      name: 'default'
+      name: 'Default'
 
     variables:
       solution: '**/*.sln'
@@ -46,7 +46,7 @@ stages:
   jobs:
   - job: Deploy
     pool:
-      name: good
+      name: Default
 
     steps:
 
