@@ -11,7 +11,7 @@ stages:
   - job: Build
 
     pool:
-      name: 'MyAgentPool'
+      name: 'default'
 
     variables:
       solution: '**/*.sln'
